@@ -1,0 +1,15 @@
+Package: QRLoF
+Type: Package
+Title: A lack-of-fit test for linear form of Quantile Process
+Version: 0.1.0
+Author: Qiaochu Liu
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.7),
+         fda,
+         combinat
+LinkingTo: Rcpp,RcppEigen
